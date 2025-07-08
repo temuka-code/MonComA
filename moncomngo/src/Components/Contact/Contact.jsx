@@ -38,21 +38,21 @@ const Contact = () => {
             <p>Feel free to reach out through contact form or find our contact
                 information below. Your feedback, questions, and suggestions are
                 important to us as we strive to provide exceptional service to our
-                university community.</p>
+                 community.</p>
             <ul>
-                <li> <img src={mail_icon} alt="" />contact@great.edu</li>
-                <li> <img src={phone_icon} alt="" />+1 123-456-7890</li>
-                <li> <img src={location_icon} alt="" />address #</li>
+                <li> <img src={mail_icon} alt="" />coloradomongols@gmail.com</li>
+                {/* <li> <img src={phone_icon} alt="" />+1 720-240-1919</li> */}
+                <li> <img src={location_icon} alt="" />2180 S.Colorado Blvd, Denver <br/>CO 80222, US</li>
             </ul>
         </div>
-        <div className='contact-col'>
+        <div className="contact-col">
             <form onSubmit={onSubmit}>
                 <label> Your name</label>
-                <input type='text' name='' placeholder ='Enter your name' required />
+                <input type="text" name='' placeholder ='Enter your name' required />
                 <label >Phone number</label>
-                <input type='tel' name='phone' placeholder='Enter your phone number' required />
+                <input type="tel" name='phone' placeholder='Enter your phone number' required />
                 <label >Write your messages here</label>
-                <textarea name='message' rows='6' placeholder='Enter your message' required></textarea>
+                <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
                 <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
             </form>
             <span>{result}</span>

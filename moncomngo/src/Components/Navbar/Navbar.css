@@ -1,6 +1,7 @@
 nav {
     width:100%;
     /* background: #333; */
+    /* background: url('../../assets/denverDowntown.jpg'); */
     color: #fff;
     padding: 4px 0;
     position: fixed;
@@ -21,7 +22,7 @@ nav ul li{
     font-size: 16px;
 }
 .dark-nav{
-    background: #212EA0;
+    background: #0860a3;
     transition: 0.5s;
     
 }
