@@ -11,16 +11,16 @@ const socialLinks=[{
 const Footer = () => {
   return (
     <div className='footer'>
-      {socialLinks.map(({href,icon}, key)=>(
+      {/* {socialLinks.map(({href,icon}, key)=>(
         <a 
         key={key}
         href={href}
-        target='_blank'
+        
         >
           {icon}
         </a>
 
-      ))}
+      ))} */}
         <p>© 2025 Mongolian Community of Colorado. </p>
         {/* <img src={facebook} alt="" className='footerlogo'/>Facebook */}
         <ul>
