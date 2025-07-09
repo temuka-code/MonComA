@@ -14,7 +14,7 @@ const Contact = () => {
             setResult("Sending....");
             const formData = new FormData(event.target);
 
-            formData.append("access_key", "33b8180c-4456-4179-9f6a-91f11e8f6363");
+            formData.append("access_key", "ab35e089-1652-4062-9bab-19ed6bb550d6");
 
             const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
